@@ -30,3 +30,63 @@ margin:50px 280px;
     margin: 220px auto 0;
     text-align: center;
 }
+/* place time section */
+.hotel{
+ 
+}
+.cool{
+    border: 5px solid yellow;
+    max-width: 1320px;
+    height: 450px;
+    margin: 0px auto;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.place .call-1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+.place .call-2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+.date{
+    display: flex;
+    justify-content: center;
+} 
+.date .call-3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+.date .call-4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600; 
+}
+.time{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.time .call-5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+.time .call-6{
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
