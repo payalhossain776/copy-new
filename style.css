@@ -1,0 +1,32 @@
+/* shere item h5 */
+h5{
+    width: 400px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    }
+.banner{
+background-image: url('img/Banner\ Image.png');
+background-repeat: no-repeat;
+border-radius: 16px;
+margin:50px 280px;
+}
+.text{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+    max-width: 1320px;
+    height: 600px;
+  
+}
+.banner .text h2{
+    width: 600px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 220px auto 0;
+    text-align: center;
+}
