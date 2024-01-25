@@ -13,6 +13,7 @@ background-image: url('img/Banner\ Image.png');
 background-repeat: no-repeat;
 border-radius: 16px;
 margin:50px 280px;
+text-align: center;
 }
 .text{
     border-radius: 16px;
@@ -32,18 +33,24 @@ margin:50px 280px;
 }
 /* place time section */
 .hotel{
- 
+ background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+ max-width: 1320px;
+ height: 432px;
+ margin: 20px auto;
 }
 .cool{
-    border: 5px solid yellow;
-    max-width: 1320px;
-    height: 450px;
-    margin: 0px auto;
+    display: flex;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: 200px auto;
+    padding: 30px;
+
 }
 .place{
     display: flex;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
 }
 .place .call-1{
     color: #F00;
@@ -54,7 +61,7 @@ margin:50px 280px;
 .place .call-2{
     color: #070211;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
 }
 .date{
@@ -70,7 +77,7 @@ margin:50px 280px;
 .date .call-4{
     color: #070211;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600; 
 }
 .time{
@@ -87,6 +94,18 @@ margin:50px 280px;
 .time .call-6{
     color: #070211;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
+}
+.cool .btn{
+    margin: 15px auto;
+    padding: 5px 18px;
+    border-radius: 5px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
 }
